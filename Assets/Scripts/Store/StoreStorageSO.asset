@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7794bfd299f6c1440bb51e41225746de, type: 3}
+  m_Name: StoreStorageSO
+  m_EditorClassIdentifier: 
+  boards:
+  - boardType: 0
+    sprite: {fileID: 21300000, guid: 66c89ffe190689f4cb776d40f5bf4da4, type: 3}
+    prefabBoard: {fileID: 1736275497651205525, guid: be089f6738898f043b56ced22083f2f7, type: 3}
+  - boardType: 1
+    sprite: {fileID: 21300000, guid: 0fd878c6df1eb7048bdcacd1282465b2, type: 3}
+    prefabBoard: {fileID: 1736275497651205525, guid: 7961d2957acd2d2408d65d079a9e8658, type: 3}
+  - boardType: 2
+    sprite: {fileID: 21300000, guid: 49d459f1000409c4183c44e7bae30b5d, type: 3}
+    prefabBoard: {fileID: 1736275497651205525, guid: dc731c4f8e9634149900e46b6225efff, type: 3}
+  - boardType: 3
+    sprite: {fileID: 21300000, guid: 11ea84d2feb83de4c835437301632444, type: 3}
+    prefabBoard: {fileID: 5955470034589607042, guid: 2bce09b0380a230458f8ff8199697fbd, type: 3}
+  - boardType: 4
+    sprite: {fileID: 21300000, guid: 39f0495a5e7a1e1428aa2e773f5a8b0d, type: 3}
+    prefabBoard: {fileID: 7244447384179652820, guid: fb1536a5285c0724886243107e78a4aa, type: 3}

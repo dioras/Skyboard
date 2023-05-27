@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63fd67943a2fa164b80062b506e89638, type: 3}
+  m_Name: GameStorageSO
+  m_EditorClassIdentifier: 
+  playerStorageSO: {fileID: 11400000, guid: 9a3cc0bab68ca474bacad3be0d27fe13, type: 2}
+  gameBaseParameters:
+    timeToInteractUI: 0.3
+    timeToShowHiddenButton: 3
+    reRateUsDelta: 259200
+    playerLevelToRateUs: 1
+    playerLevelToInterstitial: 3
+    coinReward: 55
+    formatingMoneyString: '#0'
+  levelsFirstWorld:
+  - controller: {fileID: 4745784874796096111, guid: 5f63be301e90698449ada623b8ce353a, type: 3}
+  - controller: {fileID: 4745784874796096111, guid: b93815a1b93e1154ba57056a7816f70f, type: 3}
+  - controller: {fileID: 4745784874796096111, guid: 8199e1453de668649bddce8e0edcb03c, type: 3}
+  - controller: {fileID: 4745784874796096111, guid: 23cfb875a984a0641bdc31a88d54f069, type: 3}
+  - controller: {fileID: 4745784874796096111, guid: 232dd32cd207c194fa1a5edfe02694bb, type: 3}
+  - controller: {fileID: 4745784874796096111, guid: cf4c1bbd21d60b743b24bb5762a6b540, type: 3}
+  - controller: {fileID: 4745784874796096111, guid: ae37292134642424383df399b30caebb, type: 3}
+  levelsSecondWorld:
+  - controller: {fileID: 2873899337547175736, guid: d38bb0e59f344df4480edb3c64fae906, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 72422550215d5ae4d91faa954ac48e56, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: b1bafcc35870b3b45a619113f2981d34, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 78572730c29769a45a6faef9e469b7d9, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 534901ca061c1794ab2fae3dbcfea866, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: f9be7fe2bb0da0744931ec9b1cceb57a, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: fbd7af0e275c5be4ebb6ed749f6d8b3e, type: 3}
+  levelsThirdWorld:
+  - controller: {fileID: 2873899337547175736, guid: 828ee26514b4c424bafac4496c0f60cb, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 7a1bb724207bf2a46bc565824a09733d, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: b1e6875aa26ef5143829f57aaa0d07cd, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 84399bbe4116f6b44aedcc065d465233, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 5b3a7252f49c7ad41837be228247afa3, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: 9e87fc65b98f1d3489a614ffb5530e87, type: 3}
+  - controller: {fileID: 2873899337547175736, guid: b6a44d9c09eab75469a3ff8e15ee83cd, type: 3}
+  worldSettings:
+  - world: 0
+    sprite: {fileID: 21300000, guid: 8ef4aa8087575b2438693b3c809573e7, type: 3}
+  - world: 1
+    sprite: {fileID: 21300000, guid: 68e6eeeb00753614a86b00fa17ebcbd0, type: 3}
+  - world: 2
+    sprite: {fileID: 21300000, guid: 3e33b4e156157e847bcb23a52765452c, type: 3}
